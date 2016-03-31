@@ -1,10 +1,7 @@
 .container { 
-    width: 800px;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    width: 900px;
+    margin: 0 auto;
+    display: inline-block;
 }
 .token { 
     width: 32%; 
@@ -14,6 +11,52 @@
     text-align: center;
     padding: 50px 0px 50px 0px;
     font-size: x-large;
+    font-family: 'Montserrat';
+}
+#rock {
+    border-radius: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: lightgreen;
+}
+#paper {
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: coral;
+}
+#scissors {
+    border-radius: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+    background-color: skyblue;
+}
+#grass {
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
+}
+#fire {
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
+}
+#water {
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: block;
 }
 #message {
     text-align: center;
